@@ -1,0 +1,19 @@
+INCLUDE Irvine32.inc
+
+.data
+
+.code
+main PROC
+
+mov eax, 5h
+mov ebx, 6h
+call DumpRegs
+xchg eax, ebx
+call DumpRegs
+
+
+
+call DumpRegs
+exit 
+main ENDP
+END main  

@@ -11,7 +11,7 @@ invalidChoice BYTE "Invalid choice!",13,10,0
 resultsStack DWORD 10 DUP(0)
 stackTop DWORD 0
 
-testSentence BYTE "The quick brown fox jumps over the lazy dog",0
+testSentence BYTE "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG",0
 yourInputMsg BYTE "Type the sentence and press ENTER:",13,10,0
 inputBuffer BYTE 300 DUP(0)
 
